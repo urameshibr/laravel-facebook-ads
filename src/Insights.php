@@ -27,7 +27,12 @@ class Insights
         $params['level'] = $level;
 
         if(gettype($period) == "array") {
-            $params['time_ranges'] = $period;
+            $params['time_ranges'] = array_map(function($period) {
+                return [
+                    'since' => $period->startDate->format('Y-m-d'),
+                    'until' => $period->endDate->format('Y-m-d'),
+                ];
+            }, $period);
         } else {
             $params['time_range'] = [
                 'since' => $period->startDate->format('Y-m-d'),
