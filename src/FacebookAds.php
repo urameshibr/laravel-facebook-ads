@@ -22,7 +22,7 @@ class FacebookAds extends AbstractFacebookAds
      * @return \Illuminate\Support\Collection
      */
     public function insights(
-        Period $period,
+        $period,
         $accountId,
         $level,
         array $params

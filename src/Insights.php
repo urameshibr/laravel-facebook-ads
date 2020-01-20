@@ -13,7 +13,7 @@ class Insights
     use FormatResponse;
 
     public function get(
-        Period $period,
+        $period,
         $accountId,
         $level,
         array $params
@@ -25,10 +25,15 @@ class Insights
         $params['time_increment'] = $params['time_increment'] ?? '1';
         $params['limit'] = $params['limit'] ?? 100;
         $params['level'] = $level;
-        $params['time_range'] = [
-            'since' => $period->startDate->format('Y-m-d'),
-            'until' => $period->endDate->format('Y-m-d'),
-        ];
+
+        if(gettype($period) == "array") {
+            $params['time_ranges'] = $period;
+        } else {
+            $params['time_range'] = [
+                'since' => $period->startDate->format('Y-m-d'),
+                'until' => $period->endDate->format('Y-m-d'),
+            ];
+        }
 
         $apiResponse = $levelClass->getInsights($fields, $params);
 
