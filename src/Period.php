@@ -1,10 +1,10 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds;
+namespace Agenciabid\LaravelFacebookAds;
 
 use DateTime;
 use Carbon\Carbon;
-use Edbizarro\LaravelFacebookAds\Exceptions\InvalidPeriod;
+use Agenciabid\LaravelFacebookAds\Exceptions\InvalidPeriod;
 
 class Period
 {

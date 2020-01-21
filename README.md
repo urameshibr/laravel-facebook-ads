@@ -39,7 +39,7 @@ For Laravel <= 5.4 add the provider manually
 You need to update your `config/app.php` configuration file to register our service provider, adding this line on `providers` array:
 
 ```php
-Edbizarro\LaravelFacebookAds\Providers\LaravelFacebookServiceProvider::class
+Agenciabid\LaravelFacebookAds\Providers\LaravelFacebookServiceProvider::class
 ```
 
 ### Enable the facade (optional)
@@ -47,12 +47,12 @@ Edbizarro\LaravelFacebookAds\Providers\LaravelFacebookServiceProvider::class
 This package comes with an facade to make the usage easier. To enable it, add this line at `config/app.php` on `alias` array:
 
 ```php
-'FacebookAds' => Edbizarro\LaravelFacebookAds\Facades\FacebookAds::class
+'FacebookAds' => Agenciabid\LaravelFacebookAds\Facades\FacebookAds::class
 ```
 
 ## Configuration
 
-If you want to change any configurations, you need to publish the package configuration file. To do this, run ` artisan vendor:publish --provider="Edbizarro\LaravelFacebookAds\Providers\LaravelFacebookServiceProvider"` on terminal.
+If you want to change any configurations, you need to publish the package configuration file. To do this, run ` artisan vendor:publish --provider="Agenciabid\LaravelFacebookAds\Providers\LaravelFacebookServiceProvider"` on terminal.
 This will publish a `facebook-ads.php` file on your configuration folder like this:
 
 ```php

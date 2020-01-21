@@ -1,6 +1,6 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds;
+namespace Agenciabid\LaravelFacebookAds;
 
 use FacebookAds\Cursor;
 use Illuminate\Support\Collection;

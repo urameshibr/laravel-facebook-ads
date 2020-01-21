@@ -4,7 +4,7 @@ namespace LaravelFacebookAds\Tests;
 
 use Mockery as m;
 use Orchestra\Testbench\TestCase;
-use Edbizarro\LaravelFacebookAds\Providers\LaravelFacebookServiceProvider;
+use Agenciabid\LaravelFacebookAds\Providers\LaravelFacebookServiceProvider;
 
 /**
  * Class BaseTest.

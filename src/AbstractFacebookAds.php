@@ -1,10 +1,10 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds;
+namespace Agenciabid\LaravelFacebookAds;
 
 use FacebookAds\Api;
 use Illuminate\Support\Traits\Macroable;
-use Edbizarro\LaravelFacebookAds\Contracts\LaravelFacebookAdsContract;
+use Agenciabid\LaravelFacebookAds\Contracts\LaravelFacebookAdsContract;
 
 /**
  * Class AbstractFacebookAds.

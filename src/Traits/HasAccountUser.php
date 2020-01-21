@@ -1,6 +1,6 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Traits;
+namespace Agenciabid\LaravelFacebookAds\Traits;
 
 use FacebookAds\Object\User;
 

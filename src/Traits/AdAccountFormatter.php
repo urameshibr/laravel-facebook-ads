@@ -1,8 +1,8 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Traits;
+namespace Agenciabid\LaravelFacebookAds\Traits;
 
-use Edbizarro\LaravelFacebookAds\Entities\AdAccount;
+use Agenciabid\LaravelFacebookAds\Entities\AdAccount;
 
 /**
  * Class AdAccountFormatter.

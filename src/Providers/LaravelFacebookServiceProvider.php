@@ -1,11 +1,11 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Providers;
+namespace Agenciabid\LaravelFacebookAds\Providers;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\ServiceProvider;
-use Edbizarro\LaravelFacebookAds\FacebookAds;
-use Edbizarro\LaravelFacebookAds\Contracts\LaravelFacebookAdsContract;
+use Agenciabid\LaravelFacebookAds\FacebookAds;
+use Agenciabid\LaravelFacebookAds\Contracts\LaravelFacebookAdsContract;
 
 /**
  * Class LaravelFacebookServiceProvider.

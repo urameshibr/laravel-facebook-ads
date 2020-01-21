@@ -1,6 +1,6 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Exceptions;
+namespace Agenciabid\LaravelFacebookAds\Exceptions;
 
 use Exception;
 
