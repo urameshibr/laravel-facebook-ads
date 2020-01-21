@@ -1,5 +1,6 @@
 {
     "name": "agencia-bid/laravel-facebook-ads",
+    "type": "library",
     "description": "Facebook & Instagram Ads for Laravel 5.6+",
     "keywords": [
         "laravel",
